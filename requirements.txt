@@ -6,3 +6,5 @@ python-dxf==4.0.1
 
 # If SSL Connections fails, install these depenencies
 # pyOpenSSL ndg-httpsclient pyasn1
+tqdm>=4.66.3 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
